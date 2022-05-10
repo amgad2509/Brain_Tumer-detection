@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-image: url('images/istockphoto-1250205787-612x612.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.nav{
+margin-left: 150px;
+margin-right: 15px;
+margin-top: 75px;
+text-shadow: 3px 3px 5px gray;
+
+}
+.nav a{
+padding-left: 30px;
+text-decoration: none;
+color: white;
+font-size: 22px;
+}
+.dd{
+position: absolute;
+top: 20%;
+transform: translate(-50%, -50%);
+margin-left: 670px;
+width: 300px;
+height: 150px;
+}
+.st{
+    font-size: 50px;
+    color: white;
+}
+::-webkit-file-upload-button {
+    background: #ddd;
+      border: 1px solid #aaa;
+      border-top: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      color: #444;
+      display: inline-block;
+      font-size: 11px;
+      font-weight: bold;
+      text-decoration: none;
+      text-shadow: 0 1px rgba(255, 255, 255, .75);
+      cursor: pointer;
+      margin-bottom: 20px;
+      line-height: normal;
+      padding: 8px 10px; 
+    }
+  
+  .bn30 {
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+    padding: 0.7em 2em;
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+  }
+  
+  .bn30 .text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  }
+  
+  .bn30:after {
+    content: "";
+    border-radius: 18px;
+    position: absolute;
+    margin: 4px;
+    top: 15px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: #0e0e10;
+  }
+  
+  .bn30:hover {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+    box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+  }
+  
+  .bn30:hover .text {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  }
+  .paa{
+      margin-top: 5px;
+      margin-left: 15px;
+      
+  }
